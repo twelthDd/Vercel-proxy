@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.sparrowslockpicks.ca";//your website url
+  let target = "https://www.sparrowslockpicks.ca/product_p/tux1.htm";//your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
